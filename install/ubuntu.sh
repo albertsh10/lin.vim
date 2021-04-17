@@ -10,12 +10,12 @@ sudo apt-get install -y zsh
 sudo apt-get install -y gcc
 sudo apt-get install -y g++
 sudo apt-get install -y make
-sudo apt-get install -y clang
+# sudo apt-get install -y clang
 sudo apt-get install -y cmake
 sudo apt-get install -y autoconf
 sudo apt-get install -y automake
 sudo apt-get install -y clang-format
-sudo apt-get install -y clangd
+# sudo apt-get install -y clangd
 sudo apt-get install -y silversearcher-ag
 sudo apt-get install -y ripgrep
 sudo apt-get install -y unzip

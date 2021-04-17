@@ -17,7 +17,7 @@
     "typescript",
     "typescriptreact"
   ],
-  "python.pythonPath": "python3",
+  "python.pythonPath": "python",
   "python.formatting.provider": "black",
   "python.formatting.blackArgs": ["--line-length", "120"],
   "snippets.extends": {
