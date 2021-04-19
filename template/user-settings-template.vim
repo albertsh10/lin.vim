@@ -1,7 +1,6 @@
 " custom configurations
-
+"
 " 1. Hot key
-
 " open/close nerdtree file explorer
 map <F1> :NERDTreeToggle<CR>
 " open/close tagbar
@@ -11,7 +10,7 @@ map <F3> :call CocAction('format')<CR>
 " switch between C/C++ header source
 map <F4> :CocCommand clangd.switchSourceHeader<CR>
 " open/close terminal
-map <F5> :below terminal ++rows=20<CR>
+map <F5> :below terminal<CR>
 " open enhanced yank list
 map <F6> :CocList -A --normal yank<CR>
 " open markdown preview
@@ -44,6 +43,7 @@ map <c-k> 10k
 map <c-h> 10h
 map <c-l> 10l
 
+set mouse-=a
 
 " 5. Filetype mapping
 autocmd BufRead,BufNewFile *.hql setlocal filetype=sql
@@ -98,4 +98,4 @@ autocmd FileType html,xml,xhtml,json,js setlocal tabstop=2 softtabstop=2 shiftwi
 set colorcolumn=120
 
 " 11. coc.nvim plugin list
-let g:coc_global_extensions = ['coc-marketplace', 'coc-highlight', 'coc-yank', 'coc-snippets', 'coc-tag', 'coc-pyright', 'coc-clangd', 'coc-cmake', 'coc-json', 'coc-html', 'coc-xml', 'coc-css', 'coc-tsserver', 'coc-eslint', 'coc-sql', 'coc-prettier', 'coc-emmet', 'coc-vetur']
+let g:coc_global_extensions = ['coc-marketplace', 'coc-highlight', 'coc-yank', 'coc-snippets', 'coc-tag', 'coc-pyright', 'coc-clangd', 'coc-cmake', 'coc-json', 'coc-rls', 'coc-html', 'coc-xml', 'coc-css', 'coc-tsserver', 'coc-eslint', 'coc-sql', 'coc-prettier', 'coc-emmet', 'coc-vetur']

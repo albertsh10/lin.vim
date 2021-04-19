@@ -1,5 +1,4 @@
 " lin.vim
-
 " 1) vim plugins
 source $HOME/.vim/vim-plug.vim
 
